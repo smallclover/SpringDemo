@@ -1,0 +1,9 @@
+server:
+  port: 8989
+spring:
+  application:
+    name: springboot-third-login
+github:
+  client-id:
+  client-secret:
+  redirect-url: http://localhost:8989/oauth/github/callback
